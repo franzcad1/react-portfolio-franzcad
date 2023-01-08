@@ -4,9 +4,13 @@ import {GoBrowser} from 'react-icons/go'
 import {GiConsoleController} from 'react-icons/gi'
 import Image from 'next/image';
 import franz from '../public/franzbig.png'
-import stellarview from '../public/stellar-view.png'
-import hospital from '../public/hospital.jpg'
+import stellarview from '../public/stellarview.png'
 import patient from '../public/patient.jpg'
+import dragonattack from '../public/dragonattack.jpg'
+import litegram from '../public/litegram.png'
+import cruelcrusade from '../public/cruelcrusade.png'
+import leaseorhome from '../public/leaseorhome.png'
+import studentcourse from '../public/studentcourse.png'
 export default function Home() {
   return (
     <div>
@@ -33,7 +37,7 @@ export default function Home() {
           <Image src={franz} layout="fill" objectFit='cover'/>
         </div>
         <div className='text-center p-2'>
-          <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>Hello! I am Franz, an aspiring software developer and passionate game-programming graduate based in Toronto. I consider myself as a goal-oriented and driven individual who is always learning new tech-industry concepts and open to utilising new technologies.</p>
+          <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>Hello! I am Franz, an aspiring software developer and passionate game-programming graduate based in Toronto. I consider myself as a goal-oriented and driven individual who is always learning new tech-industry concepts and open to utilizing new technologies.</p>
         </div>
         <div className=' text-5xl flex justify-center gap-10 py-5 text-orange-500'>
             <a href='https://www.linkedin.com/in/franzcadiente/'><AiFillLinkedin /></a>
@@ -51,12 +55,12 @@ export default function Home() {
               </div>
               <h3 className='text-lg font-medium pt-8 pb-2'>Web Development</h3>
               <p className='py-4'>I am able to create and design both the front-end and the back-end of web applications. I am most familiar with using the MERN stack.</p>
-              <p className=' py-1 text-orange-500'>Full Stack Development</p>
-              <p className='text-gray-800 py-1'>React.js</p>
-              <p className='text-gray-800 py-1'>Node.js</p>
-              <p className='text-gray-800 py-1'>Javascript ES6+</p>
-              <p className='text-gray-800 py-1'>Express</p>
-              <p className='text-gray-800 py-1'>HTML & CSS</p>
+              <p className=' py-1 text-orange-700'>Full Stack Development</p>
+              <p className='text-orange-700 py-1'>React.js</p>
+              <p className='text-orange-700 py-1'>Node.js</p>
+              <p className='text-orange-700 py-1'>Javascript ES6+</p>
+              <p className='text-orange-700 py-1'>Express</p>
+              <p className='text-orange-700 py-1'>HTML & CSS</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
               <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -64,10 +68,10 @@ export default function Home() {
               </div>
               <h3 className='text-lg font-medium pt-8 pb-2'>Mobile Development</h3>
               <p className='py-4'>I am able to develop mobile applications for Android devices using Java.</p>
-              <p className=' py-1 text-orange-500'>Java</p>
-              <p className='text-gray-800 py-1'>Android Studio</p>
-              <p className='text-gray-800 py-1'>Google Maps API</p>
-              <p className='text-gray-800 py-1'>Object-Oriented Programming</p>
+              <p className=' py-1 text-orange-700'>Java</p>
+              <p className='text-orange-700 py-1'>Android Studio</p>
+              <p className='text-orange-700 py-1'>Google Maps API</p>
+              <p className='text-orange-700 py-1'>Object-Oriented Programming</p>
             </div>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
               <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -75,29 +79,41 @@ export default function Home() {
               </div>
               <h3 className='text-lg font-medium pt-8 pb-2'>Game Development</h3>
               <p className='py-4'>I am proficient at designing and programming different genres of games with the use of Unity Engine.</p>
-              <p className=' py-1 text-orange-500'>Unity Engine</p>
-              <p className='text-gray-800 py-1'>Web and Mobile Games</p>
-              <p className='text-gray-800 py-1'>2D and 3D</p>
-              <p className='text-gray-800 py-1'>Virtual Reality</p>
-              <p className='text-gray-800 py-1'>C++</p>
-              <p className='text-gray-800 py-1'>C#</p>
+              <p className=' py-1 text-orange-700'>Unity Engine</p>
+              <p className='text-orange-700 py-1'>Web and Mobile Games</p>
+              <p className='text-orange-700 py-1'>2D and 3D</p>
+              <p className='text-orange-700 py-1'>Virtual Reality</p>
+              <p className='text-orange-700 py-1'>C++</p>
+              <p className='text-orange-700 py-1'>C#</p>
             </div>
           </div>
         </section>
         <section>
           <div>
             <h3 className='text-3xl py-1'>Projects</h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>Here are some of the academic projects that I have worked on that show my skillset.</p>
+            <p className='text-md py-2 leading-8 text-gray-800'>Here are some of the academic projects that I have worked on that show my skill-set.</p>
           </div>
-          <div className=' flex flex-col gap-10 py-10 lg:flex-row lg:flex:wrap'>
+          <div className=' flex flex-col gap-3 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <Image src={stellarview} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+              <a href="https://github.com/franzcad1/Dragon-Attack"><Image src={dragonattack} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/> </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={patient} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+              <a href="https://github.com/franzcad1/Cruel-Crusade"><Image src={cruelcrusade} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={hospital} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
+              <a href="https://github.com/franzcad1/stellar-view"><Image src={stellarview} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></a>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <a href="https://github.com/COMP-313-Group1/LiteGram"><Image src={litegram} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/> </a>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <a href="https://github.com/franzcad1/medical-database"><Image src={patient} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></a>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <a href="https://github.com/franzcad1/LeaseOrRentHome"><Image src={leaseorhome} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></a>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <a href="https://github.com/franzcad1/Student-Course-System"><Image src={studentcourse} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></a>
             </div>
           </div>
         </section>
