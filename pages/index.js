@@ -5,8 +5,8 @@ import {GiConsoleController} from 'react-icons/gi'
 import Image from 'next/image';
 import franz from '../public/franzbig.png'
 import stellarview from '../public/stellar-view.png'
-import hospital from '../public/hospital.PNG'
-import patient from '../public/patient.PNG'
+import hospital from '../public/hospital.jpg'
+import patient from '../public/patient.jpg'
 export default function Home() {
   return (
     <div>
