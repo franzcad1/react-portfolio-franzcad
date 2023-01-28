@@ -11,6 +11,7 @@ import litegram from '../public/litegram.png'
 import cruelcrusade from '../public/cruelcrusade.png'
 import leaseorhome from '../public/leaseorhome.png'
 import studentcourse from '../public/studentcourse.png'
+import ecommerce from "../public/ecommerce.png"
 export default function Home() {
   return (
     <div>
@@ -114,6 +115,9 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1'>
               <a href="https://github.com/franzcad1/Student-Course-System"><Image src={studentcourse} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></a>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <a href="https://shoponlyfranz.com/"><Image src={ecommerce} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></a>
             </div>
           </div>
         </section>
