@@ -38,7 +38,7 @@ export default function Home() {
           <Image src={franz} layout="fill" objectFit='cover'/>
         </div>
         <div className='text-center p-2'>
-          <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>Hello! I am Franz, an aspiring software developer and passionate game-programming graduate based in Toronto. I consider myself as a goal-oriented and driven individual who is always learning new tech-industry concepts and open to utilizing new technologies.</p>
+          <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>Hello! I am Franz, a software developer and passionate game-programming graduate based in Toronto. I consider myself as a goal-oriented and driven individual who is always learning new tech-industry concepts and open to utilizing new technologies.</p>
         </div>
         <div className=' text-5xl flex justify-center gap-10 py-5 text-orange-500'>
             <a href='https://www.linkedin.com/in/franzcadiente/'><AiFillLinkedin /></a>
@@ -92,7 +92,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className='text-3xl py-1'>Projects</h3>
-            <p className='text-md py-2 leading-8 text-gray-800'>Here are some of the academic projects that I have worked on that show my skill-set.</p>
+            <p className='text-md py-2 leading-8 text-gray-800'>Here are some of the projects that I have worked on that show my skill-set.</p>
           </div>
           <div className=' flex flex-col gap-3 py-10 lg:flex-row lg:flex-wrap'>
           <div className='basis-1/3 flex-1'>
