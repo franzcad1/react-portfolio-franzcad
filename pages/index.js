@@ -10,7 +10,7 @@ import dragonattack from '../public/dragonattack.jpg'
 import litegram from '../public/litegram.png'
 import cruelcrusade from '../public/cruelcrusade.png'
 import leaseorhome from '../public/leaseorhome.png'
-import studentcourse from '../public/studentcourse.png'
+import photogram from '../public/photogram.png'
 import ecommerce from "../public/ecommerce.png"
 export default function Home() {
   return (
@@ -95,6 +95,9 @@ export default function Home() {
             <p className='text-md py-2 leading-8 text-gray-800'>Here are some of the academic projects that I have worked on that show my skill-set.</p>
           </div>
           <div className=' flex flex-col gap-3 py-10 lg:flex-row lg:flex-wrap'>
+          <div className='basis-1/3 flex-1'>
+              <a href="https://photo-gram-beta.vercel.app/"><Image src={photogram} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></a>
+            </div>
             <div className='basis-1/3 flex-1'>
               <a href="https://github.com/franzcad1/Dragon-Attack"><Image src={dragonattack} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/> </a>
             </div>
@@ -112,9 +115,6 @@ export default function Home() {
             </div>
             <div className='basis-1/3 flex-1'>
               <a href="https://github.com/franzcad1/LeaseOrRentHome"><Image src={leaseorhome} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></a>
-            </div>
-            <div className='basis-1/3 flex-1'>
-              <a href="https://github.com/franzcad1/Student-Course-System"><Image src={studentcourse} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></a>
             </div>
             <div className='basis-1/3 flex-1'>
               <a href="https://shoponlyfranz.com/"><Image src={ecommerce} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/></a>
