@@ -93,11 +93,10 @@ export default function Home() {
               skill-set.
             </p>
           </div>
-          <div className="bg-orange-200 rounded-lg h-72 justify-center items-center flex flex-row mt-5">
-            <div className="w-3/6 p-2">
-              <a href="https://photo-gram-beta.vercel.app/" target="_blank">
-                <Image src={photogram} className="rounded-lg object-cover" />
-              </a>
+          <div className="flex flex-col justify-center items-center">
+          <div className="bg-orange-200 rounded-lg h-72 justify-center items-center flex flex-row mt-5 w-[1000px]">
+            <div className="w-3/6 p-2  h-full">
+                <Image src={photogram} className="rounded-lg object-cover h-full max-w-{100%}"/>
             </div>
             <div className="w-3/6 text-center p-2">
               <h2 className="text-2xl py-5">PhotoGram</h2>
@@ -157,7 +156,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="bg-orange-200 rounded-lg h-72 justify-center items-center flex flex-row mt-5">
+          <div className="bg-orange-200 rounded-lg h-72 justify-center items-center flex flex-row mt-5 w-[1000px]">
             <div className="w-3/6 text-center p-2">
               <h2 className="text-2xl py-5">CryptoCurrent</h2>
               <p>
@@ -223,6 +222,7 @@ export default function Home() {
                 />
               </a>
             </div>
+          </div>
           </div>
         </section>
         <p className="text-sm text-center p-6 text-gray-800 pt-10">
